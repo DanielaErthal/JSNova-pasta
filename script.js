@@ -17,4 +17,10 @@ function passou(media) {
          }       
 }
 
-    
+    for (var index in nomes){
+        var n1 = A [index];
+        var n2 = B [index];
+    }
+
+    var m = media(n1,n2);
+    console.log(nomes[index]+"-"+n1+"-"+n2+"-"+m+"-"+passou(m));
